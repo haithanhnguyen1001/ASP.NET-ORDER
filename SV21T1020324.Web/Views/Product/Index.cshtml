@@ -1,0 +1,124 @@
+﻿@model SV21T1020324.Web.Models.ProductSearchResult
+
+@{
+    ViewBag.Title = "Quản lý sản phẩm";
+
+}
+<form id="formSearch" action="/Product" method="get">
+    <div class="row">
+        <div class="col-sm-3">
+            <label>Loại hàng:</label>
+            <select class="form-control" name="@nameof(Model.CategoryId)">
+                <option value="0">-- Chọn loại hàng --</option>
+                @foreach (var category in CommonDataService.ListOfCategories())
+                {
+                    if (category.CategoryID == Model.CategoryId)
+                    {
+                        <option value="@category.CategoryID" selected>@category.CategoryName</option>
+
+                    }
+                    else
+                    {
+                        <option value="@category.CategoryID">@category.CategoryName</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-sm-3">
+            <label>Nhà cung cấp:</label>
+            <select class="form-control" name="@nameof(Model.SupplierId)">
+                <option value="0">-- Chọn nhà cung cấp --</option>
+                @foreach (var supplier in CommonDataService.ListOfSuppliers())
+                {
+                    if (supplier.SupplierID == Model.SupplierId)
+                    {
+                        <option value="@supplier.SupplierID" selected>@supplier.SupplierName</option>
+                    }
+                    else
+                    {
+                        <option value="@supplier.SupplierID">@supplier.SupplierName</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-sm-1">
+            <label>Giá từ:</label>
+            <input type="text" class="form-control" name="@nameof(Model.MinPrice)" value="@Model.MinPrice">
+        </div>
+        <div class="col-sm-1">
+            <label>đến:</label>
+            <input type="text" class="form-control" name="@nameof(Model.MaxPrice)" value="@Model.MaxPrice">
+        </div>
+        <div class="col-sm-4">
+            <label>Tên mặt hàng cần tìm:</label>
+            <div class="input-group">
+                <input name="@nameof(Model.SearchValue)" type="text" class="form-control" placeholder="Nhập mặt hàng hàng cần tìm" autofocus="" value="@Model.SearchValue">
+                <div class="input-group-btn">
+                    <button class="btn btn-info" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                    <a href="/Product/Create" class="btn btn-primary" style="margin-left:5px">
+                        <i class="fa fa-plus"></i> Bổ sung
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-body">
+            <p style="margin-top:10px">
+                Có <strong>@Model.RowCount</strong> sản phẩm trong tổng số <strong>@Model.PageCount</strong> trang.
+            </p>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr class="bg-primary">
+                            <th style="width: 100px">Ảnh</th>
+                            <th style="width:auto">Tên sản phẩm</th>
+                            <th style="width: 150px">Đơn giá</th>
+                            <th style="width: 150px">Số tiền</th>
+                            <th></th>
+                            <th style="width:80px"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Data)
+                        {
+                            <tr>
+                                <td>
+                                    <img class="profile-user-img img-responsive img-bordered" src="@(string.IsNullOrEmpty(item.Photo) ? Url.Content("~/assets/img/product.png") : item.Photo)">
+                                </td>
+                                <td>@item.ProductName</td>
+                                <td>@item.Unit</td>
+                                <td>@item.Price</td>
+                                <td class="text-right">
+                                    <a href="~/Product/Edit/@item.ProductID" class="btn btn-xs btn-info">
+                                        <i class="fa fa-edit"></i>
+                                    </a>
+                                    <a href="~/Product/Delete/@item.ProductID" class="btn btn-xs btn-danger">
+                                        <i class="fa fa-remove"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="text-center">
+                <ul class="pagination">
+                    @for (int p = 1; p <= Model.PageCount; p++)
+                    {
+                        if (p == Model.Page)
+                        {
+                            <li class="active"><a href="#">@p</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="~/Product?page=@p&searchValue=@Model.SearchValue&categoryId=@Model.CategoryId&supplierId=@Model.SupplierId&minPrice=@Model.MinPrice&maxPrice=@Model.MaxPrice">@p</a></li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</form>

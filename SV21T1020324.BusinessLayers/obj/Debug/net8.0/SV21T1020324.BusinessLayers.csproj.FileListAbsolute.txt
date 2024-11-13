@@ -1,0 +1,17 @@
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\bin\Debug\net8.0\SV21T1020324.BusinessLayers.deps.json
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\bin\Debug\net8.0\SV21T1020324.BusinessLayers.dll
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\bin\Debug\net8.0\SV21T1020324.BusinessLayers.pdb
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\bin\Debug\net8.0\SV21T1020324.DataLayers.dll
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\bin\Debug\net8.0\SV21T1020324.DomainModels.dll
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\bin\Debug\net8.0\SV21T1020324.DataLayers.pdb
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\bin\Debug\net8.0\SV21T1020324.DomainModels.pdb
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\SV21T1020324.BusinessLayers.csproj.AssemblyReference.cache
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\SV21T1020324.BusinessLayers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\SV21T1020324.BusinessLayers.AssemblyInfoInputs.cache
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\SV21T1020324.BusinessLayers.AssemblyInfo.cs
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\SV21T1020324.BusinessLayers.csproj.CoreCompileInputs.cache
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\SV21T102.4C4A75E4.Up2Date
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\SV21T1020324.BusinessLayers.dll
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\refint\SV21T1020324.BusinessLayers.dll
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\SV21T1020324.BusinessLayers.pdb
+D:\Video Hoc\SV21T1020324\SV21T1020324.BusinessLayers\obj\Debug\net8.0\ref\SV21T1020324.BusinessLayers.dll

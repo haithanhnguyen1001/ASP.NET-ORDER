@@ -1,0 +1,73 @@
+﻿@model Product
+@{
+    ViewBag.Title = "Xóa sản phẩm";
+}
+<div class="box box-danger">
+    <div class="box-body">
+        <form action="~/Product/Delete/@Model.ProductID" method="post">
+
+            <div class="form-group">
+                <label>Tên mặt hàng:</label>
+                <p class="form-control-static">@Model.ProductName</p>
+
+            </div>
+
+            <div class="form-group">
+                <label>Mô tả:</label>
+                <p class="form-control-static">@Model.ProductDescription</p>
+            </div>
+
+            <div class="form-group">
+                <label>Loại hàng:</label>
+                <p class="form-control-static">@CommonDataService.GetCategory(Model.CategoryID).CategoryName</p>
+            </div>
+
+            <div class="form-group">
+                <label>Nhà cung cấp:</label>
+                <p class="form-control-static">@CommonDataService.GetSupplier(Model.SupplierID).SupplierName</p>
+            </div>
+
+            <div class="form-group">
+                <label>Đơn vị tính:</label>
+                <p class="form-control-static">@Model.Unit</p>
+            </div>
+
+            <div class="form-group">
+                <label>Giá hàng:</label>
+                <p class="form-control-static">@Model.Price</p>
+            </div>
+
+            <div class="form-group">
+                <label>Trạng thái bán</label>
+                <p class="form-control-static">@(Model.IsSelling ? "Hiện đang được bán" : "Hiện đang không được bán")</p>
+            </div>
+
+            <div class="form-group">
+                <label>Ảnh minh họa:</label>
+                <img class="profile-user-img img-responsive img-bordered"
+                     alt="no-photo"
+                     src="~/assets/images/products/@(string.IsNullOrWhiteSpace(Model.Photo) ? "nophoto.png" : Model.Photo)">
+            </div>
+
+
+            <div class="form-group text-right">
+                @if (ViewBag.AllowDelete)
+                {
+                    <button type="submit" class="btn btn-primary btn-danger">
+                        <i class="fa fa-floopy-o"></i>
+                        Xóa dữ liệu
+                    </button>
+                }
+                else
+                {
+                    <span style="color:#f00">Không được phép xóa sản phẩm này!</span>
+                }
+
+                <a href="~/Product" class="btn btn-default">
+                    Quay lại
+                </a>
+            </div>
+
+        </form>
+    </div>
+</div>

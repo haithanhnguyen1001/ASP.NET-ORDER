@@ -1,0 +1,75 @@
+﻿@model SV21T1020324.Web.Models.ShipperSearchResult
+
+@{
+    ViewBag.Title = "Quản lý người giao hàng";
+}
+<div class="box box-primary">
+    <div class="box-body">
+        <form id="formSearch" action="~/Shipper" method="get">
+            <div class="input-group">
+                <input name="searchValue" value="@Model.SearchValue"
+                       type="text"
+                       class="form-control"
+                       placeholder="Nhap ten nguoi giao hang can tim ..."
+                       autofocus />
+                <div class="input-group-btn">
+                    <button class="btn btn-info" type="submit">
+                        <i class="fa-search"></i>
+                    </button>
+
+                    <a href="~/Shipper/Create" class="btn btn-primary" style="margin-left:5px">
+                        <i class="fa fa-plus">Bổ sung</i> 
+                    </a>
+                </div>
+            </div>
+        </form>
+
+        <p style="margin-top:10px">
+            Có <strong>@Model.RowCount</strong> Người giao hàng trong tổng số <strong>@Model.PageCount</strong> trang.
+        </p>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr class="bg-primary">
+                        <th>Tên người giao hàng:</th>
+                        <th>Điện thoại:</th>
+                        <th style="width:80px"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Data)
+                    {
+                        <tr>
+                            <td>@item.ShipperName</td>
+                            <td>@item.Phone</td>
+                            <td class="text-right">
+                                <a href="~/Shipper/Edit/@item.ShipperID" class="btn btn-xs btn-info">
+                                    <i class="fa fa-edit"></i>
+                                </a>
+                                <a href="~/Shipper/Delete/@item.ShipperID" class="btn btn-xs btn-danger">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-center">
+            <ul class="pagination">
+                @for (int p = 1; p <= Model.PageCount; p++)
+                {
+                    if (p == Model.Page)
+                    {
+                        <li class="active"><a href="#">@p</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="~/Shipper?page=@p&searchValue=@Model.SearchValue">@p</a></li>
+                    }
+                }
+            </ul>
+        </div>
+    </div>
+</div>

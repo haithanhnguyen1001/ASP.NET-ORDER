@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Video Hoc\\SV21T1020324\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\views\\supplier\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\views\\supplier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\views\\product\\attribute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\views\\product\\attribute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\views\\product\\photo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\views\\product\\photo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\models\\productsearchinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\models\\productsearchinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|d:\\video hoc\\sv21t1020324\\sv21t1020324.web\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9E83EC-D038-4C87-ABC8-2B0A9C55711F}|SV21T1020324.Web\\SV21T1020324.Web.csproj|solutionrelative:sv21t1020324.web\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Attribute.cshtml",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Product\\Attribute.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Views\\Product\\Attribute.cshtml",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Product\\Attribute.cshtml",
+              "RelativeToolTip": "SV21T1020324.Web\\Views\\Product\\Attribute.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T09:28:22.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "SV21T1020324.Web\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAPkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T09:04:59.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductSearchInput.cs",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Models\\ProductSearchInput.cs",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Models\\ProductSearchInput.cs",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Models\\ProductSearchInput.cs",
+              "RelativeToolTip": "SV21T1020324.Web\\Models\\ProductSearchInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T08:41:15.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "SV21T1020324.Web\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T08:40:39.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Photo.cshtml",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Product\\Photo.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Views\\Product\\Photo.cshtml",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Product\\Photo.cshtml",
+              "RelativeToolTip": "SV21T1020324.Web\\Views\\Product\\Photo.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T08:36:54.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "SV21T1020324.Web\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T08:07:12.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "SV21T1020324.Web\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T07:53:41.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Supplier\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Views\\Supplier\\Edit.cshtml",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Supplier\\Edit.cshtml",
+              "RelativeToolTip": "SV21T1020324.Web\\Views\\Supplier\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T07:52:21.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Controllers\\SupplierController.cs",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "SV21T1020324.Web\\Controllers\\SupplierController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T07:43:35.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Supplier\\Index.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020324.Web\\Views\\Supplier\\Index.cshtml",
+              "ToolTip": "D:\\Video Hoc\\SV21T1020324\\SV21T1020324.Web\\Views\\Supplier\\Index.cshtml",
+              "RelativeToolTip": "SV21T1020324.Web\\Views\\Supplier\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T07:36:45.836Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
